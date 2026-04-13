@@ -7,113 +7,90 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="bg-effects"></div>
 
-  <header class="topbar">
-    <div class="container topbar-inner">
-      <div class="brand">Limbus Company Wiki</div>
-      <nav class="topnav">
-        <a href="index.html" class="active">Início</a>
-        <a href="historia.html">História</a>
-        <a href="personagens.html">Personagens</a>
-        <a href="curiosidades.html">Curiosidades</a>
-        <a href="creditos.html">Créditos</a>
-      </nav>
+<header class="topbar">
+  <div class="container topbar-inner">
+    <div class="brand">Limbus Company Wiki</div>
+    <nav class="topnav">
+      <a href="index.html" class="active">Início</a>
+      <a href="historia.html">História</a>
+      <a href="personagens.html">Personagens</a>
+      <a href="curiosidades.html">Curiosidades</a>
+      <a href="creditos.html">Créditos</a>
+    </nav>
+  </div>
+</header>
+
+<main class="container page-shell">
+
+  <section class="main-column">
+
+    <h1 class="page-title">todo mundo de volta 🔥</h1>
+
+    <input class="search-box" placeholder="Pressione / para buscar..." />
+
+    <div class="section-label">
+      <span class="section-dot"></span>
+      <h2>Ecossistema</h2>
     </div>
-  </header>
 
-  <main class="container dashboard">
-    <section class="main-panel">
-      <div class="section-title">
-        <span class="dot"></span>
-        <h2>Wiki Principal</h2>
-      </div>
+    <div class="card-stack">
 
-      <div class="hero-card">
+      <div class="main-card hero-panel">
         <div class="hero-icon">✦</div>
         <div>
           <h1>LIMBUS COMPANY</h1>
-          <p>
-            Explore a história, os personagens, a lore e as curiosidades do universo de
-            Limbus Company em uma wiki com visual sombrio e elegante.
-          </p>
-          <div class="hero-buttons">
-            <a class="action-btn primary" href="historia.html">Ver História</a>
-            <a class="action-btn" href="personagens.html">Ver Personagens</a>
-          </div>
+          <p>Explore a história, personagens e curiosidades do universo de Limbus Company.</p>
         </div>
       </div>
 
-      <div class="section-title lower">
-        <span class="dot"></span>
-        <h2>Explorar</h2>
-      </div>
-
-      <div class="card-list">
-        <a class="feature-card" href="historia.html">
-          <div class="feature-icon">📖</div>
-          <div>
-            <h3>HISTÓRIA</h3>
-            <p>Entenda o enredo principal, Dante, os Sinners e os Golden Boughs.</p>
-          </div>
-        </a>
-
-        <a class="feature-card" href="personagens.html">
-          <div class="feature-icon">👤</div>
-          <div>
-            <h3>PERSONAGENS</h3>
-            <p>Veja cada personagem em sua própria aba com lore, traços e detalhes.</p>
-          </div>
-        </a>
-
-        <a class="feature-card" href="curiosidades.html">
-          <div class="feature-icon">✧</div>
-          <div>
-            <h3>CURIOSIDADES</h3>
-            <p>Fatos sobre a criação do jogo, Project Moon e informações interessantes.</p>
-          </div>
-        </a>
-
-        <a class="feature-card" href="creditos.html">
-          <div class="feature-icon">✎</div>
-          <div>
-            <h3>CRÉDITOS</h3>
-            <p>Mostre autoria do site, inspiração visual e agradecimentos.</p>
-          </div>
-        </a>
-      </div>
-    </section>
-
-    <aside class="side-panel">
-      <div class="side-box">
-        <h3>Logs do Sistema</h3>
-
-        <div class="log-item">
-          <span class="log-date">WIKI</span>
-          <p>Página de história disponível para leitura completa.</p>
+      <a href="historia.html" class="character-link">
+        <div class="card-icon">📖</div>
+        <div>
+          <h3>HISTÓRIA</h3>
+          <p>Entenda o enredo principal.</p>
         </div>
+      </a>
 
-        <div class="log-item">
-          <span class="log-date">SINNER FILES</span>
-          <p>12 personagens organizados em abas individuais.</p>
+      <a href="personagens.html" class="character-link">
+        <div class="card-icon">👤</div>
+        <div>
+          <h3>PERSONAGENS</h3>
+          <p>Veja cada personagem.</p>
         </div>
+      </a>
 
-        <div class="log-item">
-          <span class="log-date">LORE</span>
-          <p>Curiosidades e universo compartilhado adicionados ao site.</p>
+      <a href="curiosidades.html" class="character-link">
+        <div class="card-icon">✧</div>
+        <div>
+          <h3>CURIOSIDADES</h3>
+          <p>Fatos sobre o jogo.</p>
         </div>
+      </a>
 
-        <div class="log-item">
-          <span class="log-date">STATUS</span>
-          <p>Tema visual violeta escuro aplicado ao sistema.</p>
+      <a href="creditos.html" class="character-link">
+        <div class="card-icon">✎</div>
+        <div>
+          <h3>CRÉDITOS</h3>
+          <p>Autores e inspiração.</p>
         </div>
+      </a>
 
-        <div class="log-item">
-          <span class="log-date">CRÉDITOS</span>
-          <p>Área pronta para autoria, inspiração e agradecimentos.</p>
-        </div>
-      </div>
-    </aside>
-  </main>
+    </div>
+  </section>
+
+  <aside class="side-column">
+    <div class="side-card">
+      <h3>Logs do Sistema</h3>
+
+      <div class="side-log"><span>WIKI</span><p>Página pronta.</p></div>
+      <div class="side-log"><span>SINNERS</span><p>12 personagens disponíveis.</p></div>
+      <div class="side-log"><span>LORE</span><p>Conteúdo expandido.</p></div>
+      <div class="side-log"><span>STATUS</span><p>Interface ativa.</p></div>
+    </div>
+  </aside>
+
+</main>
+
 </body>
 </html>
