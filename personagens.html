@@ -3,51 +3,166 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>TÍTULO DA PÁGINA</title>
+  <title>PERSONAGENS</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="topbar">
-    <div class="container topbar-inner">
-      <div class="brand">Limbus Company Wiki</div>
-      <nav class="topnav">
-        <a href="index.html">Início</a>
-        <a href="historia.html">História</a>
-        <a href="personagens.html">Personagens</a>
-        <a href="curiosidades.html">Curiosidades</a>
-        <a href="creditos.html">Créditos</a>
-      </nav>
+
+<header class="topbar">
+  <div class="container topbar-inner">
+    <div class="brand">Limbus Company Wiki</div>
+    <nav class="topnav">
+      <a href="index.html">Início</a>
+      <a href="historia.html">História</a>
+      <a href="personagens.html" class="active">Personagens</a>
+      <a href="curiosidades.html">Curiosidades</a>
+      <a href="creditos.html">Créditos</a>
+    </nav>
+  </div>
+</header>
+
+<main class="container page-shell">
+
+  <section class="main-column">
+    <h1 class="page-title">PERSONAGENS</h1>
+    <p class="page-subtitle">
+      Clique em um personagem para abrir sua página individual com história, gostos e detalhes completos.
+    </p>
+
+    <div class="section-label">
+      <span class="section-dot"></span>
+      <h2>Sinners</h2>
     </div>
-  </header>
 
-  <main class="container page-shell">
-    <section class="main-column">
-      <h1 class="page-title">PERSONAGENS</h1>
-      <p class="page-subtitle">Aqui sera mostrado personagens e suas especificaçoes.</p>
+    <!-- GRID DE PERSONAGENS -->
+    <div class="character-grid">
 
-      <div class="section-label">
-        <span class="section-dot"></span>
-        <h2>Seção</h2>
-      </div>
-
-      <div class="card-stack">
-        <article class="main-card">
-          <h3>Personagens</h3>
-          <p>Conteúdo aqui.</p>
-        </article>
-      </div>
-    </section>
-
-    <aside class="side-column">
-      <div class="side-card">
-        <h3>Logs do Sistema</h3>
-
-        <div class="side-log">
-          <span>WIKI</span>
-          <p>Informação lateral.</p>
+      <a class="character-link" href="yi-sang.html">
+        <div class="card-icon">✦</div>
+        <div>
+          <h3>Yi Sang</h3>
+          <p>Reservado, analítico e melancólico.</p>
         </div>
+      </a>
+
+      <a class="character-link" href="faust.html">
+        <div class="card-icon">✦</div>
+        <div>
+          <h3>Faust</h3>
+          <p>Misteriosa e extremamente inteligente.</p>
+        </div>
+      </a>
+
+      <a class="character-link" href="don-quixote.html">
+        <div class="card-icon">✦</div>
+        <div>
+          <h3>Don Quixote</h3>
+          <p>Energia caótica e idealismo extremo.</p>
+        </div>
+      </a>
+
+      <a class="character-link" href="ryoshu.html">
+        <div class="card-icon">✦</div>
+        <div>
+          <h3>Ryōshū</h3>
+          <p>Arte e violência misturadas.</p>
+        </div>
+      </a>
+
+      <a class="character-link" href="meursault.html">
+        <div class="card-icon">✦</div>
+        <div>
+          <h3>Meursault</h3>
+          <p>Frio, lógico e extremamente direto.</p>
+        </div>
+      </a>
+
+      <a class="character-link" href="hong-lu.html">
+        <div class="card-icon">✦</div>
+        <div>
+          <h3>Hong Lu</h3>
+          <p>Leve na superfície, estranho por dentro.</p>
+        </div>
+      </a>
+
+      <a class="character-link" href="heathcliff.html">
+        <div class="card-icon">✦</div>
+        <div>
+          <h3>Heathcliff</h3>
+          <p>Explosivo e emocionalmente intenso.</p>
+        </div>
+      </a>
+
+      <a class="character-link" href="ishmael.html">
+        <div class="card-icon">✦</div>
+        <div>
+          <h3>Ishmael</h3>
+          <p>Prática, séria e sobrevivente.</p>
+        </div>
+      </a>
+
+      <a class="character-link" href="rodion.html">
+        <div class="card-icon">✦</div>
+        <div>
+          <h3>Rodion</h3>
+          <p>Carismática e emocional.</p>
+        </div>
+      </a>
+
+      <a class="character-link" href="sinclair.html">
+        <div class="card-icon">✦</div>
+        <div>
+          <h3>Sinclair</h3>
+          <p>Sensível e marcado por traumas.</p>
+        </div>
+      </a>
+
+      <a class="character-link" href="outis.html">
+        <div class="card-icon">✦</div>
+        <div>
+          <h3>Outis</h3>
+          <p>Tática e disciplinada.</p>
+        </div>
+      </a>
+
+      <a class="character-link" href="gregor.html">
+        <div class="card-icon">✦</div>
+        <div>
+          <h3>Gregor</h3>
+          <p>Resiliente e cansado do mundo.</p>
+        </div>
+      </a>
+
+    </div>
+  </section>
+
+  <aside class="side-column">
+    <div class="side-card">
+      <h3>Logs do Sistema</h3>
+
+      <div class="side-log">
+        <span>SINNERS</span>
+        <p>12 personagens disponíveis.</p>
       </div>
-    </aside>
-  </main>
+
+      <div class="side-log">
+        <span>INTERFACE</span>
+        <p>Cada personagem possui sua própria página.</p>
+      </div>
+
+      <div class="side-log">
+        <span>LORE</span>
+        <p>História individual detalhada.</p>
+      </div>
+
+      <div class="side-log">
+        <span>STATUS</span>
+        <p>Sistema de navegação ativo.</p>
+      </div>
+    </div>
+  </aside>
+
+</main>
+
 </body>
 </html>
