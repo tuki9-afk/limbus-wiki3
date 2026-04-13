@@ -1,14 +1,20 @@
-const tabButtons = document.querySelectorAll('.tab-btn');
-const tabPanels = document.querySelectorAll('.tab-panel');
+document.addEventListener("DOMContentLoaded", () => {
+  const tabGroups = document.querySelectorAll(".tabs-box");
 
-tabButtons.forEach(button => {
-  button.addEventListener('click', () => {
-    const target = button.getAttribute('data-tab');
+  tabGroups.forEach((group) => {
+    const buttons = group.querySelectorAll(".tab-button");
+    const panels = group.querySelectorAll(".tab-panel");
 
-    tabButtons.forEach(btn => btn.classList.remove('active'));
-    tabPanels.forEach(panel => panel.classList.remove('active'));
+    buttons.forEach((button) => {
+      button.addEventListener("click", () => {
+        const target = button.getAttribute("data-tab");
 
-    button.classList.add('active');
-    document.getElementById(target).classList.add('active');
+        buttons.forEach((btn) => btn.classList.remove("active"));
+        panels.forEach((panel) => panel.classList.remove("active"));
+
+        button.classList.add("active");
+        group.querySelector(`#${target}`).classList.add("active");
+      });
+    });
   });
 });
